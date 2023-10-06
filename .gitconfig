@@ -1,0 +1,10 @@
+[user]
+	email = 112186685+Shubham13th@users.noreply.github.com
+	name = Shubham Sharma
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	autocrlf = input
